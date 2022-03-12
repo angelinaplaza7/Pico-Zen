@@ -55,7 +55,6 @@ end
 
 function _draw()
 	cls()
- --	rectfill(0,0,127,127, 12)
 	spr(player_sprite,player_x,player_y)
 	spr(playertip_sprite,player_x,player_y-8)	
 
